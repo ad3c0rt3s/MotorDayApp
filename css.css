@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00;
+    margin-bottom: 20px;
+}
+
+/* Date Section */
+.date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date input {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #00ff00;
+    background: #000;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+/* Priorities Section */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #00ff00;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.priorities input,
+.todo input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #00ff00;
+    background: #000;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+/* Schedule Section */
+.schedule {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #00ff00;
+    padding: 10px;
+}
+
+.time-slot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.time-slot input {
+    width: 75%;
+    padding: 5px;
+    border: 1px solid #00ff00;
+    background: #000;
+    color: #ffffff;
+}
+
+/* Refresh Button */
+.refresh-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1em;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.refresh-button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
